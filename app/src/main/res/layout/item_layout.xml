@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/item_row"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onSessionClick">
+
+            <TextView
+                android:id="@+id/id_text"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
+                android:text="ID"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/timestamp_text"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:text="timestamp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:text="name"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/time_text"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="time"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/distance_text"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="distance"
+                android:textColor="@color/white" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+</LinearLayout>
